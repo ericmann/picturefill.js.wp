@@ -8,7 +8,7 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Wordpress plugin to use picturefill.js to load responsive/retina images with the new HTML5 picture/srcset/sizes spec.
+A WordPress plugin to use picturefill.js to load responsive/retina images with the new HTML5 picture/srcset/sizes spec.
 
 == Description ==
 
@@ -20,7 +20,7 @@ This plugin parses post and page content augmenting images with the syntax for t
 
 ####Image Sizes
 
-By default, Wordpress creates as many as 3 images of different sizes for each uploaded image ("large", "medium", and "thumbnail"), in addition to the "full" image size.
+By default, WordPress creates as many as 3 images of different sizes for each uploaded image ("large", "medium", and "thumbnail"), in addition to the "full" image size.
 
 By default, the plugin lists all of these default sizes in the srcset and instructs the browser to serve up the appropriate image based on browser window width and screen resolution, not exceeding the original image width. 
 

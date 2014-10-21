@@ -31,9 +31,9 @@ then replaces them with something like this:
   srcset="http://sitename.com/wp-content/uploads/2013/04/image-150x150.jpg 150w, http://sitename.com/wp-content/uploads/2013/04/image-300x225.jpg 300w, http://sitename.com/wp-content/uploads/2013/04/image-700x525.jpg 700w, http://sitename.com/wp-content/uploads/2013/04/image.jpg 2048w" />
 ```
 
-###Wordpress Image Sizes
+###WordPress Image Sizes
 
-By default, Wordpress creates as many as 3 images of different sizes for each uploaded image ("large", "medium", and "thumbnail"), in addition to the "full" image size.
+By default, WordPress creates as many as 3 images of different sizes for each uploaded image ("large", "medium", and "thumbnail"), in addition to the "full" image size.
 
 By default, the plugin lists all of these default sizes in the srcset and instructs the browser to serve up the appropriate image based on browser window width and screen resolution, not exceeding the original image width. 
 
